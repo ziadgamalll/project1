@@ -1,0 +1,129 @@
+body {
+    font-family: roboto, sans-serif;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    margin: 0px;
+    padding: 48px 100px 100px 100px;
+    justify-content: space-between;
+}
+
+.bottom-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top-head {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+    flex: 1;
+}
+
+.head-links {
+    color: #e5e7eb;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    flex: 3;
+    justify-content: flex-end;
+}
+
+.hero-main {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.placeholder {
+    color: #e5e7eb;
+    font-size: 12px;
+    padding: 72px;
+    margin: px;
+    background-color: grey;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    height: 100px;
+}
+
+
+
+button {
+    background-color: #3882f6;
+    text-align: center;
+    color: #ffffff;
+    padding: 8px 32px;
+    border-radius: 6px;
+    font-weight: 900;
+    width: 136px;
+}
+
+li {
+    padding: 8px;
+    white-space: nowrap;
+    margin: 0px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    margin-right: 12px;
+}
+
+.head {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+.bottom-body{
+    display: flex;
+}
+
+.card {
+    padding: 60px;
+    border: solid;
+    border-radius: 12px;
+    border-color: #3882f6;
+}
+
+.pack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    width: 150px;
+    margin: 12px;
+}
+
+.info {
+    margin-top: 12px;
+}
