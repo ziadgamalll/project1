@@ -9,14 +9,14 @@ body {
     background-color: #1f2937;
     color: white;
     margin: 0px;
-    padding: 48px 100px 100px 100px;
+    padding: 36px 100px 100px 100px;
     justify-content: space-between;
 }
 
 .bottom-head {
     display: flex;
     align-items: flex-end;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -24,6 +24,7 @@ body {
     flex: 1;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 48px;
 }
 
 .logo {
@@ -32,7 +33,7 @@ body {
     font-weight: bold;
     white-space: nowrap;
     flex: 1;
-}
+    }
 
 .head-links {
     color: #e5e7eb;
@@ -41,6 +42,7 @@ body {
     display: flex;
     flex: 3;
     justify-content: flex-end;
+    margin: auto;
 }
 
 .hero-main {
@@ -64,8 +66,6 @@ body {
     height: 100px;
 }
 
-
-
 button {
     background-color: #3882f6;
     text-align: center;
@@ -77,7 +77,7 @@ button {
 }
 
 li {
-    padding: 8px;
+    padding: 12px;
     white-space: nowrap;
     margin: 0px;
 }
@@ -126,4 +126,31 @@ li {
 
 .info {
     margin-top: 12px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sayer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-weight: bold;
+    color: #1f2937;
+    font-size: 24px;
 }
